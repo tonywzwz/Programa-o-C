@@ -2,7 +2,7 @@
 
 int main() { 
 
-//Declarando vari·veis. 
+//Declarando vari√°veis. 
 
 char nome [200];
 char sexo;

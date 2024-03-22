@@ -3,7 +3,7 @@
 // i - > input
 // 0 - > outout 
 
-//Função principal.
+//FunÃ§Ã£o principal.
 int main (){
 
     //comando para mostrar mo terminal.
@@ -14,8 +14,8 @@ int main (){
     getchar();
     
     
-    //Comando para retornar o código 0. 
-    //Código usado para informar que o 
+    //Comando para retornar o cÃ³digo 0. 
+    //CÃ³digo usado para informar que o 
     //programa finalizou correntemente.
     return 0; 
 }

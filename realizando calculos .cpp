@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 int main() {
-// Declarando vari·veis.
+// Declarando vari√°veis.
 float primeiroNumero, segundoNumero;
 float soma, subtracao, multiplicacao, divisao;
 
-// Solicitando dados para o usu·rio.
+// Solicitando dados para o usu√°rio.
 printf("Digite o primeiro numero: ");
 scanf("%f", &primeiroNumero);
 
 printf("Digite o segundo numero: ");
 scanf("%f", &segundoNumero);
 
-// Realizar c·lculos.
+// Realizar c√°lculos.
 soma = primeiroNumero + segundoNumero;
     subtracao = primeiroNumero - segundoNumero;
     multiplicacao = primeiroNumero * segundoNumero;

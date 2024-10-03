@@ -12,7 +12,7 @@ int main(){
 	do{
 	
 		
-		printf("Digite o [%d]° valor: ", i + 1);
+		printf("Digite o [%d]Â° valor: ", i + 1);
 		scanf("%i", &numero);
 
 		if  (numero < 0 ) {
@@ -40,11 +40,11 @@ int main(){
     
     
 	
-	printf("\nQuantidade de números negativos: %i", negativo);
-	printf("\nQuantidade de números positivos: %i", positivo);
-	printf("\nQuantidade de números impares: %i", impares);
-	printf("\nQuantidade de números pares: %i", pares);
-	printf("\nQuantidade de números inseridos: %i", contador);	
+	printf("\nQuantidade de nÃºmeros negativos: %i", negativo);
+	printf("\nQuantidade de nÃºmeros positivos: %i", positivo);
+	printf("\nQuantidade de nÃºmeros impares: %i", impares);
+	printf("\nQuantidade de nÃºmeros pares: %i", pares);
+	printf("\nQuantidade de nÃºmeros inseridos: %i", contador);	
 	    
     return 0;
 }

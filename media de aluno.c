@@ -14,11 +14,11 @@ float media[2], soma = 0;
 
 printf(" === Solicitando dados para o usuario === \n");
 for (i = 0; i < 3; i++) {
-printf("Digite o nome do %iº aluno: ", i+1);
+printf("Digite o nome do %iÂº aluno: ", i+1);
 scanf("%s", &alunos[i]);
 
 for (j = 0; j < 2; j++) {
-printf("Digite a %iª nota: ", j+1);
+printf("Digite a %iÂª nota: ", j+1);
 scanf("%f", &notas [i][j]);
 
 soma += notas [i][j];
@@ -35,7 +35,7 @@ printf("\n");
 
 printf("\n === Exibindo dados para o usuario === \n");
 for (i = 0; i < 3; i++) {
-printf("%iº aluno: %s \n", i+1, alunos[i]);
+printf("%iÂº aluno: %s \n", i+1, alunos[i]);
 
 for (j = 0; j < 2; j++) {
 printf("%ia nota: %.1f \n", j+1, notas[i][j]);

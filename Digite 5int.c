@@ -5,11 +5,11 @@ int main() {
     setlocale(LC_ALL, "");
     int i, numero, soma = 0;
     
-    printf("Digite 5 números inteiros: ");
+    printf("Digite 5 nÃºmeros inteiros: ");
     
     for (i = 1; i <= 5; i++) {
     	
-    	printf("Digite o %iº número: ", i );
+    	printf("Digite o %iÂº nÃºmero: ", i );
     	scanf("%i", &numero);
     	
     	soma = soma + numero;

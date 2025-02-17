@@ -29,7 +29,7 @@ do {
 media = soma / contador;
 
 printf("\n=== Exibindo resultados ===\n");
-printf("Média: %.1f \n", media);
+printf("MÃ©dia: %.1f \n", media);
 
 return 0;
 }

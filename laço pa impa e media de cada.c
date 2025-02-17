@@ -8,7 +8,7 @@ int main() {
     int pares = 0, impares = 0;
     float mediaGeral, mediaPares, mediaImpares;
    
-    printf("Digite um número: ");
+    printf("Digite um nÃºmero: ");
     scanf("%i",&valor);
    
     while (valor != 0) {
@@ -31,12 +31,12 @@ int main() {
                 
             }
         }        
-            printf("Digite um número: ");
+            printf("Digite um nÃºmero: ");
             scanf("%i",&valor);
     }
    
     if (contadorGeral == 0) {
-        printf("Não foi informado um número positivo.");
+        printf("NÃ£o foi informado um nÃºmero positivo.");
     } else {
         // cast
         // 2 -> 2.0
@@ -44,10 +44,10 @@ int main() {
         mediaPares = somaPares / (float) pares;
         mediaImpares = somaImpares / (float) impares;
         printf("Quantidade de pares: %i \n", pares);
-        printf("Quantidade de ímpares: %i \n", impares);
-        printf("Média geral: %.1f \n", mediaGeral);
-        printf("Média de números pares: %.1f \n", mediaPares);
-        printf("Média de números impares: %.1f \n", mediaImpares);
+        printf("Quantidade de Ã­mpares: %i \n", impares);
+        printf("MÃ©dia geral: %.1f \n", mediaGeral);
+        printf("MÃ©dia de nÃºmeros pares: %.1f \n", mediaPares);
+        printf("MÃ©dia de nÃºmeros impares: %.1f \n", mediaImpares);
 	}
    
     return 0;
